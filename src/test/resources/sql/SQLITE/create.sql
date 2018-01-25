@@ -1,0 +1,40 @@
+-- Create Tables
+
+CREATE TABLE test_brand
+(
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  version BIGINT DEFAULT NULL,
+  name VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE test_category
+(
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  version INTEGER DEFAULT NULL,
+  name VARCHAR(255) NOT NULL,
+  description VARCHAR(1000)
+);
+
+
+CREATE TABLE test_product_category
+(
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  version INTEGER DEFAULT NULL,
+  product_id INTEGER NOT NULL,
+  category_id INTEGER NOT NULL
+);
+
+
+CREATE TABLE test_product
+(
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  version INTEGER DEFAULT NULL,
+  brand_id INTEGER NOT NULL,
+  blocked INTEGER NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  create_date DATE NOT NULL,
+  modify_date DATE DEFAULT NULL
+);
+

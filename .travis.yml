@@ -1,0 +1,17 @@
+language: java
+
+sudo: false
+
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
+
+services:
+  - mysql
+  - postgres
+
+before_script:
+  - mysql -e 'create database j7orm'
+  - psql -c 'create database j7orm;' -U postgres
+

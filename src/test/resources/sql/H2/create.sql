@@ -1,0 +1,40 @@
+-- Create Tables
+
+CREATE TABLE test_brand
+(
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  version BIGINT DEFAULT NULL,
+  name VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE test_category
+(
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  version BIGINT DEFAULT NULL,
+  name VARCHAR(255) NOT NULL,
+  description VARCHAR(1000)
+);
+
+
+CREATE TABLE test_product_category
+(
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  version BIGINT DEFAULT NULL,
+  product_id BIGINT NOT NULL,
+  category_id BIGINT NOT NULL
+);
+
+
+CREATE TABLE test_product
+(
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  version BIGINT DEFAULT NULL,
+  brand_id BIGINT NOT NULL,
+  blocked BOOLEAN NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  create_date DATE NOT NULL,
+  modify_date DATE DEFAULT NULL
+);
+
