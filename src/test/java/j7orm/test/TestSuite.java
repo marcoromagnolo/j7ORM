@@ -1,5 +1,5 @@
 /**
- * Copyright 2016 Advant I/O
+ * Copyright 2016 Marco Romagnolo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,6 @@
 package j7orm.test;
 
 import j7orm.test.testcase.TestFunctions;
-import io.advant.orm.test.testsuite.*;
 import j7orm.test.testsuite.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

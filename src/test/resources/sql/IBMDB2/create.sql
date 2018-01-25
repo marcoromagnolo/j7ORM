@@ -1,6 +1,6 @@
 -- Create Database and User
 
--- CREATE DATABASE advantorm;
+-- CREATE DATABASE j7orm;
 
 -- Create Tables
 

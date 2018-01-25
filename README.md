@@ -27,7 +27,7 @@ You must comply with these requirements before implement j7ORM in your applicati
 ### Example with Mysql
 Create a **db** schema if you haven't yet
 ~~~~
-CREATE DATABASE advantorm;
+CREATE DATABASE j7orm;
 ~~~~
 Create **table** with ID (AUTO_INCREMENT) and VERSION columns
 ~~~~
@@ -64,12 +64,12 @@ Create **DAO implementation** class extending `j7orm.AbstractDAO` and generics c
 ~~~~
 public class PersonDAOImpl extends AbstractDAO<PersonEntity> implements PersonDAO<PersonEntity> {}
 ~~~~
-Configure **advantorm.properties** file with entities, database credentials and parameters
+Configure **j7orm.properties** file with entities, database credentials and parameters
 ~~~~
 db.type=mysql
 db.host=localhost
 db.port=3306
-db.database=advantorm
+db.database=j7orm
 db.user=root
 db.password=
 entity.1=com.example.entity.PersonEntity
@@ -77,7 +77,7 @@ entity.1=com.example.entity.PersonEntity
 Now you can **select() insert() update() and delete()** from Person table
 ~~~~
 public static void main() throws ConnectionException, OrmException {
-    // Load DB instance from advantorm.properties
+    // Load DB instance from j7orm.properties
     DB db = DBFactory.getInstance();
     
     // Initialize DAO with DBConnection
@@ -101,4 +101,4 @@ public static void main() throws ConnectionException, OrmException {
 You can also use `j7orm.GenericDAO` by using entity on fly without create DAOs for each entity
 
 ### Insight
-if you want to increase your Advant ORM knowledge follow this [link](https://github.com/marcoromagnolo/j7orm/wiki)
+if you want to increase your j7ORM knowledge follow this [link](https://github.com/marcoromagnolo/j7orm/wiki)

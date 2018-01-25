@@ -1,5 +1,5 @@
 /**
- * Copyright 2016 Advant I/O
+ * Copyright 2016 Marco Romagnolo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@ package j7orm;
 import j7orm.exception.OrmException;
 import j7orm.exception.TableParseException;
 import j7orm.exception.UnsynchronizedException;
-import io.advant.orm.internal.*;
 import j7orm.internal.*;
 
 import java.lang.reflect.ParameterizedType;

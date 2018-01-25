@@ -1,5 +1,5 @@
 /**
- * Copyright 2016 Advant I/O
+ * Copyright 2016 Marco Romagnolo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,9 +31,9 @@ import java.util.HashSet;
 public class DefaultDBConfig extends DBConfig {
 
     public static final String HOST = "localhost";
-    public static final String DATABASE = "advantorm";
-    public static final String USER = "advantorm";
-    public static final String PASSWORD = "advantorm";
+    public static final String DATABASE = "j7orm";
+    public static final String USER = "j7orm";
+    public static final String PASSWORD = "j7orm";
 
     public DefaultDBConfig(DBType dbType, String database, String user, String password) {
         super(dbType, database, user, password);

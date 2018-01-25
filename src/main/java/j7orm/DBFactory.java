@@ -1,5 +1,5 @@
 /**
- * Copyright 2016 Advant I/O
+ * Copyright 2016 Marco Romagnolo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -46,7 +46,7 @@ public class DBFactory {
     }
 
     public static DB newInstance() {
-        InputStream stream = Thread.currentThread().getContextClassLoader().getResourceAsStream("advantorm.properties");
+        InputStream stream = Thread.currentThread().getContextClassLoader().getResourceAsStream("j7orm.properties");
         return newInstance(stream);
     }
 

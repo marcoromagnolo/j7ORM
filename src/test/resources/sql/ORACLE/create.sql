@@ -1,7 +1,7 @@
 -- Create Database and User
 
--- CREATE USER advantorm IDENTIFIED BY advantorm;
--- GRANT ALL PRIVILEGES TO advantorm;
+-- CREATE USER j7orm IDENTIFIED BY j7orm;
+-- GRANT ALL PRIVILEGES TO j7orm;
 
 -- Create Sequences
 

@@ -14,4 +14,4 @@ DROP SEQUENCE IF EXISTS product_category_id_seq;
 
 -- Drop Database
 
--- DROP DATABASE IF EXISTS advantorm;
+-- DROP DATABASE IF EXISTS j7orm;

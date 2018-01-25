@@ -7,4 +7,4 @@ DROP TABLE test_product;
 
 -- Drop Database
 
--- DROP DATABASE advantorm;
+-- DROP DATABASE j7orm;

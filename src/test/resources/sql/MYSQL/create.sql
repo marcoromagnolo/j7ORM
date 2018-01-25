@@ -1,8 +1,8 @@
 -- Create Database and User
 
--- CREATE USER 'advantorm'@'localhost' IDENTIFIED BY 'advantorm';
--- CREATE DATABASE IF NOT EXISTS advantorm;
--- GRANT ALL PRIVILEGES ON advantorm . * TO 'test'@'localhost';
+-- CREATE USER 'j7orm'@'localhost' IDENTIFIED BY 'j7orm';
+-- CREATE DATABASE IF NOT EXISTS j7orm;
+-- GRANT ALL PRIVILEGES ON j7orm . * TO 'test'@'localhost';
 -- FLUSH PRIVILEGES;
 
 -- Create Tables

@@ -7,4 +7,4 @@ DROP TABLE IF EXISTS test_product;
 
 -- Drop Database
 
--- DROP DATABASE IF EXISTS advantorm;
+-- DROP DATABASE IF EXISTS j7orm;

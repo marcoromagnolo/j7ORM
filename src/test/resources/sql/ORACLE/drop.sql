@@ -21,4 +21,4 @@ DROP TRIGGER product_on_insert;
 
 -- Drop Database
 
--- DROP DATABASE advantorm;
+-- DROP DATABASE j7orm;

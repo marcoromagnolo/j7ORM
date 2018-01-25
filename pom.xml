@@ -4,19 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.advant</groupId>
-    <artifactId>advant-orm</artifactId>
+    <groupId>j7orm</groupId>
+    <artifactId>j7orm</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Advant ORM</name>
+    <name>j7ORM</name>
     <description>Object/Relational Mapping Framework that provide data persistence (via JDBC) to simplify developer work with RDBMS</description>
-    <url>https://github.com/advantio/advant-orm</url>
+    <url>https://github.com/marcoromagnolo/j7orm</url>
     <inceptionYear>2016</inceptionYear>
-    <organization>
-        <name>Advant I/O</name>
-        <url>http://www.advant.io</url>
-    </organization>
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -39,14 +35,14 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/advantio/advant-orm.git</connection>
-        <developerConnection>scm:git:ssh://github.com:advantio/advant-orm.git</developerConnection>
-        <url>http://github.com/advantio/advant-orm.git</url>
+        <connection>scm:git:git://github.com/marcoromagnolo/j7orm.git</connection>
+        <developerConnection>scm:git:ssh://github.com/marcoromagnolo/j7orm.git</developerConnection>
+        <url>http://github.com/marcoromagnolo/j7orm.git</url>
     </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/advantio/advant-orm/issues</url>
+        <url>https://github.com/marcoromagnolo/j7orm/issues</url>
     </issueManagement>
 
     <properties>

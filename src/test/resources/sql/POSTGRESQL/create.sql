@@ -1,7 +1,7 @@
 -- Create Database
 
--- CREATE USER advantorm WITH PASSWORD 'advantorm' CREATEDB;
--- CREATE DATABASE advantorm WITH OWNER = advantorm TEMPLATE = template0 ENCODING = 'UTF8' CONNECTION LIMIT = -1;
+-- CREATE USER j7orm WITH PASSWORD 'j7orm' CREATEDB;
+-- CREATE DATABASE j7orm WITH OWNER = j7orm TEMPLATE = template0 ENCODING = 'UTF8' CONNECTION LIMIT = -1;
 
 --Create Sequences
 
